@@ -3,20 +3,23 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>&lt;my-element> Demo</title>
-    <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
-    <script src="../node_modules/lit/polyfill-support.js"></script>
-    <script type="module" src="../my-element.js"></script>
-    <style>
-      p {
-        border: solid 1px blue;
-        padding: 8px;
-      }
-    </style>
+    <title>Front-end Dev Challenge | Kimberly Horton</title>
+
+    <meta name="description" content="Vernier Front-end Dev Challenge">
+    <meta name="author" content="Kimberly Horton">
+
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <my-element>
-      <p>This is child content</p>
-    </my-element>
+    <challenge-menu>
+    </challenge-menu>
+
+    <h1>Vernier Front-end Dev Challenge</h1>
+
+    <lit-chart></lit-chart>
+
+    <script type="module" src="components/menu.js"></script>
+    <script type="module" src="components/chart.js"></script>
+    <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
   </body>
 </html>
